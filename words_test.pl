@@ -1,7 +1,7 @@
 #!/usr/bin/perl -w
 
-# Title: A Script
-# Desc: Template for most used perl script style
+# Title: words_test.pl
+# Desc: https://gist.github.com/seanthehead/11180933
 # Author: Chris Hart
 # Date: 2015.04.29
 
