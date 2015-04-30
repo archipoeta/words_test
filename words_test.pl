@@ -24,7 +24,7 @@ GetOptions (
 &usage() if ( $help );
 
 if ($file) {
-    open(FILE, "<", $file);
+    open(FILE, "<", $file) or die "Could not open dictionary file $file!\n";
         @dictionary = <FILE>;
     close(FILE);
 }
