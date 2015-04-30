@@ -9,8 +9,8 @@ use strict;
 use Getopt::Long;
 
 my ($debug, $file, $help);
-my (@dictionary, @targets);
 my (%global_matches, %sequence_map);
+my @dictionary;
 
 my $sequences_file = './sequences';
 my $words_file = './words';
